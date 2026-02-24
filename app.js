@@ -92,8 +92,10 @@ document.addEventListener("keydown", (e) => {
          audio.play()
          console.log(noteName)
     }
+     pianoHeader.innerHTML = noteName;
    }
 
-    pianoHeader.innerHTML = noteName;
+    
    
 })
+
